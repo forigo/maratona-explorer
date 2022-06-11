@@ -157,7 +157,7 @@ a:hover {
 #resposta {
     margin-top: 30px;
     transition: opacity 1s;
-    background-image: url(./img/back.png);
+    background-image: url(https://github.com/forigo/maratona-explorer/blob/main/img/back.png);
     background-size: 300px 50px;
     background-repeat: no-repeat;
     background-position: center;
