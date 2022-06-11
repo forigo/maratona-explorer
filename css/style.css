@@ -13,18 +13,20 @@
 }
 
 body {
+    width: 375px;
     background: var(--bg-color);
     background-repeat: no-repeat;
     color: var(--color);
     text-align: center;
     font-family: 'Baloo 2', cursive;
+    height: auto;
     margin-inline: auto;
-    overflow: hidden;
+    
 }
 
 header {
     margin-top: 50px;
-    max-width: 400px;
+    max-width: 375px;
     width: 80%;
     display: flex;
     flex-direction: row;
@@ -61,7 +63,7 @@ header img {
 
 .satelite {
     display: flex;
-    width: 400px;
+    width: 375px;
     margin-inline: auto;
     justify-content: end;
 }
@@ -85,9 +87,9 @@ header img {
     margin-inline: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    max-width: 400px;
+    max-width: 375px;
     width: 80%;
-    height: auto;
+    height: 630px;
     background-color: #fff;
     border-radius: 30px;
     box-shadow: 0px 0px 45px var(--bs-color);
@@ -157,10 +159,6 @@ a:hover {
 #resposta {
     margin-top: 30px;
     transition: opacity 1s;
-    background-image: url(https://github.com/forigo/maratona-explorer/blob/main/img/back.png);
-    background-size: 300px 50px;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 #resposta div {
@@ -170,13 +168,8 @@ a:hover {
     margin-bottom: 0px;
 }
 
-.star-back {
-    width: 700px;
-    margin-inline: auto;
-}
-
 .rocket {
-    width: 500px;
+    width: 375px;
     display: flex;
     margin-inline: auto;
     animation: anim-rocket 13s linear infinite;
@@ -185,6 +178,11 @@ a:hover {
 .rocket img {
     width: 40px;
     position: absolute;
+}
+
+.star-back {
+    max-width: 375px;
+    margin-inline: auto;
 }
 
 .stars {
@@ -202,22 +200,22 @@ a:hover {
     320px 100px var(--star-color),
     100px 80px var(--star-color),
     300px 180px var(--star-color),
-    480px 420px var(--star-color),
-    600px 20px var(--star-color),
-    450px 130px var(--star-color),
-    800px 50px var(--star-color),
-    750px 700px var(--star-color),
-    1000px 280px var(--star-color),
-    880px 520px var(--star-color),
-    700px 220px var(--star-color),
-    650px 430px var(--star-color),
-    500px 350px var(--star-color),
-    650px 900px var(--star-color),
-    480px 720px var(--star-color),
-    800px 820px var(--star-color),
-    850px 930px var(--star-color),
-    800px 650px var(--star-color),
-    950px 900px var(--star-color),
+    0px 420px var(--star-color),
+    0px 20px var(--star-color),
+    20px 130px var(--star-color),
+    300px 50px var(--star-color),
+    350px 400px var(--star-color),
+    100px 280px var(--star-color),
+    380px 420px var(--star-color),
+    200px 220px var(--star-color),
+    350px 410px var(--star-color),
+    100px 350px var(--star-color),
+    250px 400px var(--star-color),
+    10px 320px var(--star-color),
+    200px 420px var(--star-color),
+    350px 130px var(--star-color),
+    200px 350px var(--star-color),
+    50px 300px var(--star-color),
     220px 300px var(--star-color);
     animation: anim-stars 10s linear infinite;
     z-index: -1;
@@ -240,23 +238,23 @@ a:hover {
     320px 100px var(--star-color),
     100px 80px var(--star-color),
     300px 180px var(--star-color),
-    480px 420px var(--star-color),
-    600px 20px var(--star-color),
-    450px 130px var(--star-color),
-    800px 50px var(--star-color),
-    750px 700px var(--star-color),
-    1000px 280px var(--star-color),
-    880px 520px var(--star-color),
-    700px 220px var(--star-color),
-    650px 430px var(--star-color),
-    500px 350px var(--star-color),
-    650px 900px var(--star-color),
-    480px 720px var(--star-color),
-    800px 820px var(--star-color),
-    850px 930px var(--star-color),
-    800px 650px var(--star-color),
-    950px 900px var(--star-color),
-    420px 300px var(--star-color);
+    0px 420px var(--star-color),
+    0px 20px var(--star-color),
+    20px 130px var(--star-color),
+    300px 50px var(--star-color),
+    350px 400px var(--star-color),
+    100px 280px var(--star-color),
+    380px 420px var(--star-color),
+    200px 220px var(--star-color),
+    350px 410px var(--star-color),
+    100px 350px var(--star-color),
+    250px 400px var(--star-color),
+    10px 320px var(--star-color),
+    200px 420px var(--star-color),
+    350px 130px var(--star-color),
+    200px 350px var(--star-color),
+    50px 300px var(--star-color),
+    220px 300px var(--star-color);
 }
 
 .stars2 {
@@ -273,25 +271,25 @@ a:hover {
     120px 130px var(--star-color),
     300px 130px var(--star-color),
     220px 115px var(--star-color),
-    600px 80px var(--star-color),
-    800px 380px var(--star-color),
+    400px 80px var(--star-color),
+    300px 380px var(--star-color),
     280px 120px var(--star-color),
-    500px 220px var(--star-color),
+    400px 220px var(--star-color),
     150px 530px var(--star-color),
-    900px 150px var(--star-color),
-    550px 300px var(--star-color),
-    700px 280px var(--star-color),
+    200px 150px var(--star-color),
+    350px 300px var(--star-color),
+    400px 280px var(--star-color),
     280px 320px var(--star-color),
-    300px 720px var(--star-color),
-    750px 230px var(--star-color),
-    800px 850px var(--star-color),
-    250px 500px var(--star-color),
-    720px 700px var(--star-color);
-    animation: anim-stars 20s linear infinite;
+    300px 220px var(--star-color),
+    350px 230px var(--star-color),
+    400px 350px var(--star-color),
+    250px 400px var(--star-color),
+    220px 300px var(--star-color);
+    animation: anim-stars 50s linear infinite;
     z-index: -1;
 }
   
-  .stars2::after {
+.stars2::after {
     content: " ";
     position: absolute;
     top: 150px;
@@ -307,21 +305,88 @@ a:hover {
     120px 130px var(--star-color),
     300px 130px var(--star-color),
     220px 115px var(--star-color),
-    600px 80px var(--star-color),
-    800px 380px var(--star-color),
+    400px 80px var(--star-color),
+    300px 380px var(--star-color),
     280px 120px var(--star-color),
-    500px 220px var(--star-color),
+    400px 220px var(--star-color),
     150px 530px var(--star-color),
-    900px 150px var(--star-color),
-    550px 300px var(--star-color),
-    700px 280px var(--star-color),
+    200px 150px var(--star-color),
+    350px 300px var(--star-color),
+    400px 280px var(--star-color),
     280px 320px var(--star-color),
-    300px 720px var(--star-color),
-    750px 230px var(--star-color),
-    800px 850px var(--star-color),
-    250px 500px var(--star-color),
-    720px 700px var(--star-color);
-}  
+    300px 220px var(--star-color),
+    350px 230px var(--star-color),
+    400px 350px var(--star-color),
+    250px 400px var(--star-color),
+    220px 300px var(--star-color);
+} 
+
+.stars3 {
+    position: relative;
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	box-shadow: 50px 30px var(--star-color),
+    100px 80px var(--star-color),
+    80px 120px var(--star-color),
+    300px 20px var(--star-color),
+    250px 130px var(--star-color),
+    200px 50px var(--star-color),
+    150px 100px var(--star-color),
+    320px 100px var(--star-color),
+    100px 80px var(--star-color),
+    300px 180px var(--star-color),
+    0px 420px var(--star-color),
+    0px 20px var(--star-color),
+    20px 130px var(--star-color),
+    300px 50px var(--star-color),
+    350px 400px var(--star-color),
+    100px 280px var(--star-color),
+    380px 420px var(--star-color),
+    200px 220px var(--star-color),
+    350px 410px var(--star-color),
+    100px 350px var(--star-color),
+    250px 400px var(--star-color),
+    10px 320px var(--star-color),
+    200px 420px var(--star-color),
+    350px 130px var(--star-color),
+    200px 350px var(--star-color),
+    50px 300px var(--star-color),
+    220px 300px var(--star-color);
+    animation: anim-stars 30s linear infinite;
+    z-index: -1;
+}
+
+.stars4 {
+    position: relative;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 15px 15px var(--star-color),
+    125px 35px var(--star-color),
+    50px 80px var(--star-color),
+    10px 120px var(--star-color),
+    275px 90px var(--star-color),
+    230px 10px var(--star-color),
+    120px 130px var(--star-color),
+    300px 130px var(--star-color),
+    220px 115px var(--star-color),
+    400px 80px var(--star-color),
+    300px 380px var(--star-color),
+    280px 120px var(--star-color),
+    400px 220px var(--star-color),
+    150px 530px var(--star-color),
+    200px 150px var(--star-color),
+    350px 300px var(--star-color),
+    400px 280px var(--star-color),
+    280px 320px var(--star-color),
+    300px 220px var(--star-color),
+    350px 230px var(--star-color),
+    400px 350px var(--star-color),
+    250px 400px var(--star-color),
+    220px 300px var(--star-color);
+    z-index: -1;
+}
 
 @keyframes anim-stars {
     from {
@@ -340,3 +405,185 @@ a:hover {
         transform: translateY(-100vh);
     }
 }
+
+@media screen and (min-width: 601px) {
+    body {
+        width: 500px;
+    }
+
+    header {
+        max-width: 500px;
+    }
+
+    .satelite {
+        width: 500px;
+    }
+
+    #container {
+        max-width: 500px;
+    }
+
+    .rocket {
+        width: 500px;
+    }
+
+    .stars {
+        box-shadow: 50px 30px var(--star-color),
+        100px 80px var(--star-color),
+        80px 120px var(--star-color),
+        300px 20px var(--star-color),
+        250px 130px var(--star-color),
+        200px 50px var(--star-color),
+        550px 100px var(--star-color),
+        320px 100px var(--star-color),
+        100px 80px var(--star-color),
+        500px 180px var(--star-color),
+        50px 420px var(--star-color),
+        50px 20px var(--star-color),
+        20px 130px var(--star-color),
+        500px 50px var(--star-color),
+        350px 400px var(--star-color),
+        100px 280px var(--star-color),
+        380px 420px var(--star-color),
+        200px 220px var(--star-color),
+        550px 410px var(--star-color),
+        100px 350px var(--star-color),
+        250px 400px var(--star-color),
+        10px 320px var(--star-color),
+        500px 420px var(--star-color),
+        350px 130px var(--star-color),
+        500px 350px var(--star-color),
+        50px 300px var(--star-color),
+        220px 300px var(--star-color),
+        200px 220px var(--star-color),
+        -50px 410px var(--star-color),
+        -10px 350px var(--star-color),
+        -25px 400px var(--star-color),
+        -10px 320px var(--star-color),
+        -100px 420px var(--star-color),
+        -150px 130px var(--star-color),
+        -200px 350px var(--star-color),
+        -50px 300px var(--star-color),
+        -120px 300px var(--star-color);
+    }
+    
+    .stars::after {
+        box-shadow: 50px 30px var(--star-color),
+        100px 80px var(--star-color),
+        80px 120px var(--star-color),
+        300px 20px var(--star-color),
+        250px 130px var(--star-color),
+        200px 50px var(--star-color),
+        550px 100px var(--star-color),
+        320px 100px var(--star-color),
+        100px 80px var(--star-color),
+        500px 180px var(--star-color),
+        50px 420px var(--star-color),
+        50px 20px var(--star-color),
+        20px 130px var(--star-color),
+        500px 50px var(--star-color),
+        350px 400px var(--star-color),
+        100px 280px var(--star-color),
+        380px 420px var(--star-color),
+        200px 220px var(--star-color),
+        550px 410px var(--star-color),
+        100px 350px var(--star-color),
+        250px 400px var(--star-color),
+        10px 320px var(--star-color),
+        500px 420px var(--star-color),
+        350px 130px var(--star-color),
+        500px 350px var(--star-color),
+        50px 300px var(--star-color),
+        220px 300px var(--star-color),
+        200px 220px var(--star-color),
+        -50px 410px var(--star-color),
+        -10px 350px var(--star-color),
+        -25px 400px var(--star-color),
+        -10px 320px var(--star-color),
+        -100px 420px var(--star-color),
+        -150px 130px var(--star-color),
+        -200px 350px var(--star-color),
+        -50px 300px var(--star-color),
+        -120px 300px var(--star-color);
+    }
+    
+    .stars2 {
+        box-shadow: 15px 15px var(--star-color),
+        125px 35px var(--star-color),
+        50px 80px var(--star-color),
+        10px 120px var(--star-color),
+        275px 90px var(--star-color),
+        230px 10px var(--star-color),
+        120px 130px var(--star-color),
+        300px 130px var(--star-color),
+        -220px 115px var(--star-color),
+        400px 80px var(--star-color),
+        300px 380px var(--star-color),
+        280px 120px var(--star-color),
+        400px 220px var(--star-color),
+        -150px 530px var(--star-color),
+        -200px 150px var(--star-color),
+        350px 300px var(--star-color),
+        400px 280px var(--star-color),
+        280px 320px var(--star-color),
+        300px 220px var(--star-color),
+        350px 230px var(--star-color),
+        400px 350px var(--star-color),
+        250px 400px var(--star-color),
+        220px 300px var(--star-color),
+        150px 530px var(--star-color),
+        200px 150px var(--star-color),
+        350px 300px var(--star-color),
+        400px 280px var(--star-color),
+        -80px 320px var(--star-color),
+        300px 220px var(--star-color),
+        350px 230px var(--star-color),
+        400px 350px var(--star-color),
+        -50px 400px var(--star-color),
+        -220px 300px var(--star-color);
+    }
+      
+      .stars2::after {
+        box-shadow: 15px 15px var(--star-color),
+        125px 35px var(--star-color),
+        50px 80px var(--star-color),
+        10px 120px var(--star-color),
+        275px 90px var(--star-color),
+        230px 10px var(--star-color),
+        120px 130px var(--star-color),
+        300px 130px var(--star-color),
+        -220px 115px var(--star-color),
+        400px 80px var(--star-color),
+        300px 380px var(--star-color),
+        280px 120px var(--star-color),
+        400px 220px var(--star-color),
+        -150px 530px var(--star-color),
+        -200px 150px var(--star-color),
+        350px 300px var(--star-color),
+        400px 280px var(--star-color),
+        280px 320px var(--star-color),
+        300px 220px var(--star-color),
+        350px 230px var(--star-color),
+        400px 350px var(--star-color),
+        250px 400px var(--star-color),
+        220px 300px var(--star-color),
+        150px 530px var(--star-color),
+        200px 150px var(--star-color),
+        350px 300px var(--star-color),
+        400px 280px var(--star-color),
+        -80px 320px var(--star-color),
+        300px 220px var(--star-color),
+        350px 230px var(--star-color),
+        400px 350px var(--star-color),
+        -50px 400px var(--star-color),
+        -220px 300px var(--star-color);
+    }  
+
+}
+
+@media screen and (min-width: 1020px) {
+    body {
+        overflow: hidden;
+    }
+}
+
