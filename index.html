@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
+    <title>Maratona Explorer</title>
+    <link rel="shortcut icon" href="/img/mago.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="rocket">
+        <img src="/img/rocket.png">
+    </div>
+
+    <header>
+        <img src="/img/maratona_explorer.png">
+        <div class="text">
+            <h1 class="title">Maratona</h1>
+            <h2 class="title-2">Explorer</h2>
+        </div>
+    </header>
+
+    <div class="star-back">
+        <div class="stars" ></div>
+        <div class="stars2" ></div>
+    </div>
+
+        <div class="satelite">
+            <img src="/img/satellite.png">
+        </div>
+
+        <div id="container">
+            
+            <img class="img-inicio" src="/img/mago.png" alt="Imagem de um mago" />
+            <h1>Vou revelar seu destino!</h1>
+            <p>Clique em fazer pergunta para que seu destino seja revelado.</p>
+            <input id="inputPergunta" type="text" placeholder="Digite sua pergunta" />
+            <a id="buttonPerguntar" onclick="fazerPergunta()" href="#">
+                <p>Fazer Pergunta</p>
+                <img class="img-botao" src="/img/varinha_magica.png">
+            </a>
+                
+            <h3 id="resposta"></h3>
+
+        </div>
+        
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
